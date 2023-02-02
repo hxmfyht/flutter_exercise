@@ -4,3 +4,5 @@
 /flutter_exercise.iml
 /pubspec.lock
 /test/
+/.flutter-plugins
+/.flutter-plugins-dependencies
