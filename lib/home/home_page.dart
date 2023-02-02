@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../chat_bubble/chat_dubble_page.dart';
 
-import '../route/initialize_route.dart';
+import '../scan_code/scan_code_page.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
@@ -24,6 +24,12 @@ class HomePage extends StatelessWidget {
                     Navigator.of(context).pushNamed('inputDemo');
                 },
                 child: Text("输入框Demo"),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pushNamed('scanCode');
+                },
+                child: Text("扫码"),
               )
             ],
           )),
